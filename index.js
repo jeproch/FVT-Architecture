@@ -29,8 +29,8 @@ aboutBtn.addEventListener("click", function () {
 
 homeBtn.addEventListener("click", function () {
   homePage.classlist.remove("hide");
-  aboutPage.classList.add("hide")
-  servicesPage.classList.add("hide")
+  aboutPage.classList.add("hide");
+  servicesPage.classList.add("hide");
 })
 
 
