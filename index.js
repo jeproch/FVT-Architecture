@@ -27,9 +27,13 @@ aboutBtn.addEventListener("click", function () {
   servicesPage.classList.add("hide");
 });
 
-function home() {
-  window.location.href = "fvt.html";
-}
+homeBtn.addEventListener("click", function () {
+  homePage.classlist.remove("hide");
+  aboutPage.classList.add("hide")
+  servicesPage.classList.add("hide")
+})
+
+
 
 //all external sources and mail =
 
