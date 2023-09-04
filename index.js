@@ -73,5 +73,6 @@ contactBtn.addEventListener("click", function () {
   contactSection.scrollIntoView({ behavior: "smooth" });
 });
 beginProjectBtn.addEventListener("click", function () {
+  alert("Creat div element for creating a project, link to e-mail.")
   contactSection.scrollIntoView({ behavior: "smooth" });
 });
